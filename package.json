@@ -1,0 +1,26 @@
+{
+    "name": "trainer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aleksdevelope/Trainer"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aleksdevelope/Trainer"
+    },
+    "homepage": "https://github.com/aleksdevelope/Trainer",
+    "devDependencies": {
+        "animejs": "^3.2.2",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "colors": [
+        "is-info",
+        "is-success",
+        "is-warning",
+        "is-danger",
+        "is-link"
+    ],
+    "level_info": [
+        {
+            "level-name": "Первый Уровень",
+            "symbols": [
+                "j",
+                "f",
+                "k",
+                "d",
+                " "
+            ],
+            "music": "level1.wav"
+        },
+        {
+            "level-name": "Второй Уровень",
+            "symbols": [
+                "j",
+                "f",
+                "k",
+                "d",
+                " ",
+                "s",
+                "a",
+                "l",
+                ";"
+            ],
+            "music": "level2.wav"
+        },
+        {
+            "level-name": "Уровень для кодеров",
+            "symbols": [
+                "v",
+                "o",
+                "i",
+                "d",
+                ";",
+                " ",
+                "d",
+                "e",
+                "f"
+            ],
+            "music": "level3.wav"
+        }
+    ]
+}

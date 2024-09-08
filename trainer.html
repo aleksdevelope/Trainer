@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trainer</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/bulma.min.css">
+    <script src="./distance/launch.js" defer></script>
+</head>
+
+<body class="has-background-black-bis">
+    <div class="modal">
+        <div class="modal-background has-background-link"></div>
+        <div class="modal-content has-background-white">
+            <h3 class="is-size-4"> Количество ошибок </h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th> Дата игры</th>
+                        <th> Количество ошибок</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="target_error">
+                        <!-- сюда мы будем писать результаты -->
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+    </div>
+    <section class="hero is-primary is-large">
+        <!-- воспользуемся готовым элементом hero из bulma -->
+        <div class="hero-head container">
+            <h1 class="label is-size-3 has-text-white promo"> Наш простой тренажер</h1>
+            <h3 class="label is-size-4 has-text-danger has-text-centered level-name"></h3>
+            <div class="error-panel is hidden">
+                <progress id="prog" class="progress is-danger" value="0" max="20"></progress>
+            </div>
+        </div>
+        <div class="hero-body has-background-black-bis main-board">
+            <div id="columns">
+                <h3 class="label is-size-2 has-text-white has-text-centered begin anim-elem">Press Enter to Start</h3>
+                <div class="buttons columns is-half is-centered ">
+                    <!-- и здесь у нас будет происходить отрисовка  -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
